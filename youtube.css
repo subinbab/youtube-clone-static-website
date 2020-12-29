@@ -2,17 +2,19 @@ html,body{
 	height:100%; 
 	margin: 0px;
 }
+.container{
+	margin: 0px;
+	margin-left: 0px;
+}
 .bar{
 	width: 100%;
 	height: 65px;
 	
 }
 .logo{
-	width:20%;
-
-	float:left;
-	height: 100%;
-}
+    width: 20%;
+    float: left;
+    height: 100%;}
 
 .search_bar{
      
@@ -21,39 +23,45 @@ html,body{
      height: 100%;
  }
  .search-icon{
- 	height:100%;
- 	padding-top: 15px;
+    height: 100%;
+    padding-top: 29px;
     padding-left: 70px;
  }
  .search-icon-inner{
     width: 83%;
-    height: 30%;
+    height: 82%;
+    padding-top: 0px;
  }
 .search-icon-box{
-	height: 27px;
-	width:30px;
+	height: 30px;
+    width: 53px;
+    border-width: 1px;
 }
+.account{
+	    width: 26%;
+    float: left;
+    padding-top: 11px;}
 
 .account1 {
-    width: 4%;
+    width: 63%;
     float: left;
     height: 100%;
-    padding-left: 91px;
+    padding-left: 173px;
 }
 .account2 {
-    width: 4%;
+    width: 10%;
     float: left;
     height: 100%;
     float: left;
 }
 .account3 {
-    width: 4%;
+    width: 11%;
     float: left;
     height: 100%;
     float: left;
 }
 .account4 {
-    width: 4%;
+    width: 10%;
     float: left;
     height: 100%;
     float: left;
@@ -80,33 +88,34 @@ html,body{
 	width: 15%;
     float: left;
     height: 100%;
-    padding-top: 10px;
-    padding-left: 21px;
+    padding-top: 30px;
+    padding-left: 0px;
 }
 .utube_icon img {
            width: 100%;
     
 }
-.drop-icon img{
-   width: 40%;
-    padding-left: 10px;
-    padding-top: 16px;
-}
+
 .dropdown{
-
-	width: 19%;
-    height: 100%;
+    width: 37%;
+    
     float: left;
-    padding-left: 18px;
-
+    padding-left: 11px;
+    position: relative;
 }
-.utube-text{
-width:31%;
 
-float:left;
-height:100%;
-padding-top: 2px;
-padding-left: 5px;
+.drop-icon img{
+   width: 52%;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.utube-text{
+    width: 31%;
+    float: left;
+    height: 100%;
+    padding-top: 42px;
+    padding-left: 5px;
 }
 .utube-text p{
 
