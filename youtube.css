@@ -39,33 +39,25 @@ html,body{
     border-width: 1px;
 }
 .account{
-	        width: 27%;
+	          width: 24%;
+    height: 100%;
     float: left;
-    padding-top: 11px;
-    justify-content: space-around;
     display: flex;
-    padding-top: 38px;
-    padding-left: 108px;}
-
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left: 112px;
+    
+     }
+  
+ .account ul{
+    width:10%;
+    
+ }
    .account li{
     list-style: none;
    }
 
-@media only screen and (min-width: 1024px) and (max-width:767px) {
 
-    .account{
-            width: 27%;
-    padding-top: 35px;
-    padding-left: 65px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 0px){
-
-    .account ul{
-               display:none;
-    }
-}
 
 .account-btn-inner{
 
@@ -105,6 +97,7 @@ html,body{
    width: 52%;
     padding-left: 20px;
     padding-top: 40px;
+    float:left;
 }
 
 .utube-text{
@@ -121,8 +114,10 @@ html,body{
 }
 .side-bar{
 
-	width:7%;
+	width:16%;
 	height:100%;
+    float:left;
+    
 	
 }
 .home-btn {
@@ -130,16 +125,157 @@ html,body{
 	padding-left:10px;
 
 }
-.home-btn-inner{
-	width:70%;
-	height:33px;
-	border:none;
-	color:red;
-	font-size: 27px;
-	background-color:white;
-}
-.home-btn-inner img{
-	width:23px;
+.home-btn-inner1{
+    float: left;
+    width: 98%;
+    height: 47px;
+    border: none;
+    font-size: 27px;
+    background-color: white;
+    vertical-align: middle;
 }
 
+.home-btn-inner1:hover {
+    background-color: #d4d0cf;
+}
+.home-btn-inner2{
+    float: left;
+    width: 98%;
+    height: 47px;
+    border: none;
+    font-size: 27px;
+    background-color: white;}
+
+.home-btn-inner2:hover {
+    background-color: #d4d0cf;
+}
+
+.home-btn-inner3{
+    float: left;
+    width: 98%;
+    height: 47px;
+    border: none;
+    font-size: 27px;
+    background-color: white;}
+
+.home-btn-inner3:hover {
+    background-color: #d4d0cf;
+}
+
+    .home-btn-inner4{
+    float: left;
+    width: 98%;
+    height: 47px;
+    border: none;
+    font-size: 27px;
+    background-color: white;}
+
+.home-btn-inner4:hover {
+    background-color: #d4d0cf;
+}
+.home-btn-inner1 img{
+	width:23px;
+    float:left;
+}
+
+.home-btn-inner2 img{
+    width:23px;
+    float:left;
+    padding-top: 11px;
+}
+
+.home-btn-inner3 img{
+    width:23px;
+    float:left;
+    padding-top: 12px;
+}
+
+.home-btn-inner4 img{
+    width:23px;
+    float:left;
+    padding-top: 12px;
+}
+.home-btn-inner1 p{
+   width: 31%;
+    font-size: 14px;
+    float: left;
+    padding-top: 5px;
+    height: 28px;
+    padding-top: 15px;
+
+}
+
+.home-btn-inner2 p{
+    width: 42%;
+    font-size: 14px;
+    float: left;
+    padding-top: 16px;
+    height: 43px;
+}
+
+.home-btn-inner3 p{
+       width: 56%;
+    font-size: 14px;
+    float: left;
+    padding-top: 18px;
+    height: 43px;
+}
+
+.home-btn-inner4 p{
+    width: 36%;
+    font-size: 14px;
+    float: left;
+    padding-top: 18px;
+    height: 43px;
+}
+}
+
+
+
+
+@media (max-width : 1024px) {
+    .account{
+    width: 24%;
+    padding-right: 0px;
+    padding-left: 27px;
+   }
+}
+
+@media (min-width : 900px) {
+    body {
+        background :red;
+    }
+}
+.home_text{
+
+    width:50%;
+    float:left;
+}
+.home_btn_inner p{
+
+    font-size: 14px;
+    float:left;
+}
+.fa-home {
+    float:left;
+    padding-top: 9px;
+}
+
+.video{
+
+    
+    float:left;
+    width: 83%;
+    height: 100%
+}
+.video-frame{
+
+    float: left;
+    width:345px;
+    height:365px;
+    padding-left: 73px;
+    padding-top: 20px;
+    padding-right: 21px;
+    padding-bottom: 20px;
+}
 
