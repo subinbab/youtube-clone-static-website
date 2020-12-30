@@ -6,7 +6,7 @@ html,body{
 	margin: 0px;
 	margin-left: 0px;
 }
-.bar{
+.nav{
 	width: 100%;
 	height: 65px;
 	
@@ -14,7 +14,8 @@ html,body{
 .logo{
     width: 20%;
     float: left;
-    height: 100%;}
+    height: 100%;
+    justify-content: space-around;}
 
 .search_bar{
      
@@ -38,38 +39,34 @@ html,body{
     border-width: 1px;
 }
 .account{
-	    width: 26%;
+	        width: 27%;
     float: left;
-    padding-top: 11px;}
+    padding-top: 11px;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 38px;
+    padding-left: 108px;}
 
-.account1 {
-    width: 63%;
-    float: left;
-    height: 100%;
-    padding-left: 173px;
-}
-.account2 {
-    width: 10%;
-    float: left;
-    height: 100%;
-    float: left;
-}
-.account3 {
-    width: 11%;
-    float: left;
-    height: 100%;
-    float: left;
-}
-.account4 {
-    width: 10%;
-    float: left;
-    height: 100%;
-    float: left;
-}
-.account-btn{
-	padding-top: 14px;
+   .account li{
+    list-style: none;
+   }
 
+@media only screen and (min-width: 1024px) and (max-width:767px) {
+
+    .account{
+            width: 27%;
+    padding-top: 35px;
+    padding-left: 65px;
+    }
 }
+
+@media screen and (min-width: 768px) and (max-width: 0px){
+
+    .account ul{
+               display:none;
+    }
+}
+
 .account-btn-inner{
 
 	width:22%;
@@ -79,7 +76,7 @@ html,body{
 	font-size: 27px;
 	background-color:white;
 }
-.account-btn-inner img{
+.account img{
 	width:21px;
 }
 
@@ -144,3 +141,5 @@ html,body{
 .home-btn-inner img{
 	width:23px;
 }
+
+
